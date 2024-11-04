@@ -1,0 +1,164 @@
+[
+  {
+    "name": "race_id",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "レースの一意識別子を表します。"
+  },
+  {
+    "name": "location",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースの開催場所を表します。例:中山"
+  },
+  {
+    "name": "race_title",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースのタイトルを表します。例:３歳未勝利"
+  },
+  {
+    "name": "race_type",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースの種類を表します。例: ダ"
+  },
+  {
+    "name": "race_turn",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースの回る方向を表します。例:右"
+  },
+  {
+    "name": "course_length",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "レースのコースの長さ（m）を表します。"
+  },
+  {
+    "name": "weather",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レース当日の天気を表します。例: 晴"
+  },
+  {
+    "name": "ground_condition",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬場状態を表します。例: 良"
+  },
+  {
+    "name": "frame_number",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "馬の枠番を表します。"
+  },
+  {
+    "name": "horse_number",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "馬の番号を表します。"
+  },
+  {
+    "name": "horse_id",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "馬の一意識別子を表します。"
+  },
+  {
+    "name": "horse_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬の名前を表します。"
+  },
+  {
+    "name": "carried_weight",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "騎手が馬に乗っている時の負担重量（kg）を表します。"
+  },
+  {
+    "name": "jockey_id",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "騎手の一意識別子を表します。"
+  },
+  {
+    "name": "odds",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "単勝のオッズを表します。"
+  },
+  {
+    "name": "popularity",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "単勝の人気順位を表します。"
+  },
+  {
+    "name": "sex",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬の性別を表します。"
+  },
+  {
+    "name": "age",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "馬の年齢を表します。"
+  },
+  {
+    "name": "horse_weight",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "馬体重"
+  },
+  {
+    "name": "weight_gain_loss",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "体重増減"
+  },
+  {
+    "name": "year",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "西暦年"
+  },
+  {
+    "name": "month",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "月"
+  },
+  {
+    "name": "day",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "日"
+  },
+  {
+    "name": "trainer_region",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "調教師の所属を表します。"
+  },
+  {
+    "name": "trainer_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "調教師の名前を表します。"
+  },
+  {
+    "name": "y_pred_loaded",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "description": "3着内に入る確率"
+  },
+  {
+    "name": "pred_labels",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "3着内の馬フラグ"
+  }
+]

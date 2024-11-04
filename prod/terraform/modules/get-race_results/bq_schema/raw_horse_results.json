@@ -1,0 +1,158 @@
+[
+  {
+    "name": "date",
+    "mode": "REQUIRED",
+    "type": "DATE",
+    "description": "レース日"
+  },
+  {
+    "name": "venue",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "開催場所"
+  },
+  {
+    "name": "weather",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "天気"
+  },
+  {
+    "name": "race_number",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "レース番号"
+  },
+  {
+    "name": "race_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レース名"
+  },
+  {
+    "name": "num_horses",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "出走馬の頭数"
+  },
+  {
+    "name": "frame_number",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "枠番"
+  },
+  {
+    "name": "horse_number",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "馬番"
+  },
+  {
+    "name": "odds",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "オッズ"
+  },
+  {
+    "name": "popularity",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "人気順位"
+  },
+  {
+    "name": "finish_position",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "着順"
+  },
+  {
+    "name": "jockey",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "騎手名"
+  },
+  {
+    "name": "carried_weight",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "斤量 (kg)"
+  },
+  {
+    "name": "distance",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースの距離"
+  },
+  {
+    "name": "track_condition",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬場状態"
+  },
+  {
+    "name": "track_index",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬場指数"
+  },
+  {
+    "name": "time",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースタイム"
+  },
+  {
+    "name": "difference",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "着差"
+  },
+  {
+    "name": "time_index",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "タイム指数"
+  },
+  {
+    "name": "passing_order",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "通過順位"
+  },
+  {
+    "name": "pace",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "レースのペース"
+  },
+  {
+    "name": "last_3f",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "上がり3ハロンのタイム"
+  },
+  {
+    "name": "horse_weight",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬体重"
+  },
+  {
+    "name": "winner_or_2nd",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "勝ち馬または2着馬の名前"
+  },
+  {
+    "name": "prize_money",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "賞金"
+  },
+  {
+    "name": "horse_id",
+    "mode": "REQUIRED",
+    "type": "STRING",
+    "description": "馬の一意識別子"
+  }
+]

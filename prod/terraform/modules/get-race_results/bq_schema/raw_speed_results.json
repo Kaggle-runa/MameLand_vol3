@@ -1,0 +1,38 @@
+[
+  {
+    "name": "race_id",
+    "mode": "REQUIRED",
+    "type": "STRING",
+    "description": "レースの識別子"
+  },
+  {
+    "name": "uma_ban",
+    "mode": "REQUIRED",
+    "type": "INTEGER",
+    "description": "競走馬のゲートの番号"
+  },
+  {
+    "name": "spped_index",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "スピード指数"
+  },
+  {
+    "name": "rasing_index",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "先行指数"
+  },
+  {
+    "name": "pace_index",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "ペース指数"
+  },
+  {
+    "name": "leading_index",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "上がり指数"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "race_id",
+    "mode": "REQUIRED",
+    "type": "STRING",
+    "description": "レースの識別子"
+  },
+  {
+    "name": "baken_types",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬券の種類"
+  },
+  {
+    "name": "horse_number",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "馬番号または馬の組み合わせ"
+  },
+  {
+    "name": "refund",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "支払金額（複数の値が含まれる場合は「br」区切り）"
+  },
+  {
+    "name": "popularity",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "人気順（複数の値が含まれる場合は「br」区切り）"
+  }
+]
