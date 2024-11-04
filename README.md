@@ -1,5 +1,5 @@
 # MameLand_vol3
-まめランドVol3用のGithubレポジトリです。
+まめランドVol3用(競馬分析を行う)のGithubレポジトリです。
 
 # horse_racing_strategy
 ## システム構成図
